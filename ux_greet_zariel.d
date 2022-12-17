@@ -8,13 +8,13 @@ IF ~Global("ux_state", "GLOBAL", 10)~ THEN BEGIN label_34
 END
 
 IF ~~ THEN BEGIN label_33
-  SAY @000193
+  SAY @000197
   IF ~~ THEN EXIT
 END
 
-IF ~~ THEN BEGIN label_35
-  SAY @000188
-  IF ~~ THEN EXIT
+IF ~Global("ux_state", "GLOBAL", 11)~ THEN BEGIN label_35
+  SAY @000199
+  IF ~True()~ DO ~SetGlobal("ux_state", "GLOBAL", 20)~ EXIT
 END
 
 IF ~GlobalGT("ux_state", "GLOBAL", 19)~ THEN BEGIN label_43

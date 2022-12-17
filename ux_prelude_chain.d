@@ -30,7 +30,7 @@ INTERJECT_COPY_TRANS2 uxpea 0 ux_lbl_ict_3
   == uxzarj @000106 DO ~~
   == uxvoij @000132 DO ~~
   == uxpea @000107 DO ~~
-  == uxathj @000108 DO ~~
+  == uxathj @000209 DO ~~
 END
 INTERJECT_COPY_TRANS uxpea 8 ux_lbl_ict_4
   == uxanaj @000102 DO ~~
@@ -38,7 +38,7 @@ INTERJECT_COPY_TRANS uxpea 8 ux_lbl_ict_4
   == uxanaj @000104 DO ~~
   == uxanaj @000105 DO ~~
   == uxpea @000107 DO ~~
-  == uxanaj @000108 DO ~~
+  == uxanaj @000209 DO ~~
 END
 INTERJECT_COPY_TRANS uxpea 16 ux_lbl_ict_5
   == uxathj @000102 DO ~~
@@ -46,7 +46,7 @@ INTERJECT_COPY_TRANS uxpea 16 ux_lbl_ict_5
   == uxathj @000104 DO ~~
   == uxathj @000105 DO ~~
   == uxpea @000107 DO ~~
-  == uxathj @000108 DO ~~
+  == uxathj @000209 DO ~~
 END
 INTERJECT_COPY_TRANS uxpea 24 ux_lbl_ict_6
   == uxolrj @000102 DO ~~
@@ -54,7 +54,7 @@ INTERJECT_COPY_TRANS uxpea 24 ux_lbl_ict_6
   == uxolrj @000104 DO ~~
   == uxolrj @000105 DO ~~
   == uxpea @000107 DO ~~
-  == uxolrj @000108 DO ~~
+  == uxolrj @000209 DO ~~
 END
 INTERJECT_COPY_TRANS uxpea 32 ux_lbl_ict_7
   == uxvoij @000102 DO ~~
@@ -62,7 +62,7 @@ INTERJECT_COPY_TRANS uxpea 32 ux_lbl_ict_7
   == uxvoij @000104 DO ~~
   == uxvoij @000105 DO ~~
   == uxpea @000107 DO ~~
-  == uxvoij @000108 DO ~~
+  == uxvoij @000209 DO ~~
 END
 INTERJECT_COPY_TRANS uxpea 40 ux_lbl_ict_8
   == uxzarj @000102 DO ~~
@@ -70,5 +70,5 @@ INTERJECT_COPY_TRANS uxpea 40 ux_lbl_ict_8
   == uxzarj @000104 DO ~~
   == uxzarj @000105 DO ~~
   == uxpea @000107 DO ~~
-  == uxzarj @000108 DO ~~
+  == uxzarj @000209 DO ~~
 END
