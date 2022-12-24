@@ -48,261 +48,261 @@ IF ~~ THEN BEGIN label_53
 END
 
 
-IF ~Global("ux_state", "GLOBAL", 40) InParty("uxana")~ THEN BEGIN label_255
+IF ~Global("ux_state", "GLOBAL", 40) InParty("uxana")~ THEN BEGIN label_393
   SAY @000058
   IF ~InParty("uxana")~ THEN
-  REPLY @000050   + label_248
+  REPLY @000050   + label_386
   IF ~InParty("uxath")~ THEN
-  REPLY @000051   + label_249
+  REPLY @000051   + label_387
   IF ~InParty("uxolr")~ THEN
-  REPLY @000052   + label_250
+  REPLY @000052   + label_388
   IF ~InParty("uxvoi")~ THEN
-  REPLY @000053   + label_251
+  REPLY @000053   + label_389
   IF ~InParty("uxzar")~ THEN
-  REPLY @000054   + label_252
-  ++ @000055 + label_253
-  ++ @000057 + label_254
+  REPLY @000054   + label_390
+  ++ @000055 + label_391
+  ++ @000057 + label_392
 END
 
-IF ~~ THEN BEGIN label_254
+IF ~~ THEN BEGIN label_392
   SAY @000056
   IF ~True()~ DO ~SetGlobal("ux_state", "GLOBAL", 70) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_253
+IF ~~ THEN BEGIN label_391
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_252
+IF ~~ THEN BEGIN label_390
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_251
+IF ~~ THEN BEGIN label_389
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_250
+IF ~~ THEN BEGIN label_388
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_249
+IF ~~ THEN BEGIN label_387
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_248
+IF ~~ THEN BEGIN label_386
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
 
-IF ~Global("ux_state", "GLOBAL", 40) InParty("uxath")~ THEN BEGIN label_263
+IF ~Global("ux_state", "GLOBAL", 40) InParty("uxath")~ THEN BEGIN label_401
   SAY @000059
   IF ~InParty("uxana")~ THEN
-  REPLY @000050   + label_256
+  REPLY @000050   + label_394
   IF ~InParty("uxath")~ THEN
-  REPLY @000051   + label_257
+  REPLY @000051   + label_395
   IF ~InParty("uxolr")~ THEN
-  REPLY @000052   + label_258
+  REPLY @000052   + label_396
   IF ~InParty("uxvoi")~ THEN
-  REPLY @000053   + label_259
+  REPLY @000053   + label_397
   IF ~InParty("uxzar")~ THEN
-  REPLY @000054   + label_260
-  ++ @000055 + label_261
-  ++ @000057 + label_262
+  REPLY @000054   + label_398
+  ++ @000055 + label_399
+  ++ @000057 + label_400
 END
 
-IF ~~ THEN BEGIN label_262
+IF ~~ THEN BEGIN label_400
   SAY @000056
   IF ~True()~ DO ~SetGlobal("ux_state", "GLOBAL", 70) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_261
+IF ~~ THEN BEGIN label_399
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_260
+IF ~~ THEN BEGIN label_398
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_259
+IF ~~ THEN BEGIN label_397
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_258
+IF ~~ THEN BEGIN label_396
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_257
+IF ~~ THEN BEGIN label_395
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_256
+IF ~~ THEN BEGIN label_394
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
 
-IF ~Global("ux_state", "GLOBAL", 40) InParty("uxolr")~ THEN BEGIN label_271
+IF ~Global("ux_state", "GLOBAL", 40) InParty("uxolr")~ THEN BEGIN label_409
   SAY @000060
   IF ~InParty("uxana")~ THEN
-  REPLY @000050   + label_264
+  REPLY @000050   + label_402
   IF ~InParty("uxath")~ THEN
-  REPLY @000051   + label_265
+  REPLY @000051   + label_403
   IF ~InParty("uxolr")~ THEN
-  REPLY @000052   + label_266
+  REPLY @000052   + label_404
   IF ~InParty("uxvoi")~ THEN
-  REPLY @000053   + label_267
+  REPLY @000053   + label_405
   IF ~InParty("uxzar")~ THEN
-  REPLY @000054   + label_268
-  ++ @000055 + label_269
-  ++ @000057 + label_270
+  REPLY @000054   + label_406
+  ++ @000055 + label_407
+  ++ @000057 + label_408
 END
 
-IF ~~ THEN BEGIN label_270
+IF ~~ THEN BEGIN label_408
   SAY @000056
   IF ~True()~ DO ~SetGlobal("ux_state", "GLOBAL", 70) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_269
+IF ~~ THEN BEGIN label_407
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_268
+IF ~~ THEN BEGIN label_406
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_267
+IF ~~ THEN BEGIN label_405
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_266
+IF ~~ THEN BEGIN label_404
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_265
+IF ~~ THEN BEGIN label_403
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_264
+IF ~~ THEN BEGIN label_402
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
 
-IF ~Global("ux_state", "GLOBAL", 40) InParty("uxvoi")~ THEN BEGIN label_279
+IF ~Global("ux_state", "GLOBAL", 40) InParty("uxvoi")~ THEN BEGIN label_417
   SAY @000061
   IF ~InParty("uxana")~ THEN
-  REPLY @000050   + label_272
+  REPLY @000050   + label_410
   IF ~InParty("uxath")~ THEN
-  REPLY @000051   + label_273
+  REPLY @000051   + label_411
   IF ~InParty("uxolr")~ THEN
-  REPLY @000052   + label_274
+  REPLY @000052   + label_412
   IF ~InParty("uxvoi")~ THEN
-  REPLY @000053   + label_275
+  REPLY @000053   + label_413
   IF ~InParty("uxzar")~ THEN
-  REPLY @000054   + label_276
-  ++ @000055 + label_277
-  ++ @000057 + label_278
+  REPLY @000054   + label_414
+  ++ @000055 + label_415
+  ++ @000057 + label_416
 END
 
-IF ~~ THEN BEGIN label_278
+IF ~~ THEN BEGIN label_416
   SAY @000056
   IF ~True()~ DO ~SetGlobal("ux_state", "GLOBAL", 70) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_277
+IF ~~ THEN BEGIN label_415
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_276
+IF ~~ THEN BEGIN label_414
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_275
+IF ~~ THEN BEGIN label_413
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_274
+IF ~~ THEN BEGIN label_412
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_273
+IF ~~ THEN BEGIN label_411
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_272
+IF ~~ THEN BEGIN label_410
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
 
-IF ~Global("ux_state", "GLOBAL", 40) InParty("uxzar")~ THEN BEGIN label_287
+IF ~Global("ux_state", "GLOBAL", 40) InParty("uxzar")~ THEN BEGIN label_425
   SAY @000062
   IF ~InParty("uxana")~ THEN
-  REPLY @000050   + label_280
+  REPLY @000050   + label_418
   IF ~InParty("uxath")~ THEN
-  REPLY @000051   + label_281
+  REPLY @000051   + label_419
   IF ~InParty("uxolr")~ THEN
-  REPLY @000052   + label_282
+  REPLY @000052   + label_420
   IF ~InParty("uxvoi")~ THEN
-  REPLY @000053   + label_283
+  REPLY @000053   + label_421
   IF ~InParty("uxzar")~ THEN
-  REPLY @000054   + label_284
-  ++ @000055 + label_285
-  ++ @000057 + label_286
+  REPLY @000054   + label_422
+  ++ @000055 + label_423
+  ++ @000057 + label_424
 END
 
-IF ~~ THEN BEGIN label_286
+IF ~~ THEN BEGIN label_424
   SAY @000056
   IF ~True()~ DO ~SetGlobal("ux_state", "GLOBAL", 70) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_285
+IF ~~ THEN BEGIN label_423
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_284
+IF ~~ THEN BEGIN label_422
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxzar", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_283
+IF ~~ THEN BEGIN label_421
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxvoi", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_282
+IF ~~ THEN BEGIN label_420
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxolr", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_281
+IF ~~ THEN BEGIN label_419
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxath", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
 
-IF ~~ THEN BEGIN label_280
+IF ~~ THEN BEGIN label_418
   SAY @000049
   IF ~True()~ DO ~IncrementGlobal("ux_state", "GLOBAL", 10) SetGlobal("ux_keep_uxana", "GLOBAL", 1) SetGlobalTimer("ux_bg_is_closed_timer", "GLOBAL", SEVEN_HOURS) EscapeArea()~ EXIT
 END
