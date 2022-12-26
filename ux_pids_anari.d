@@ -33,7 +33,7 @@ IF ~~ THEN BEGIN label_278
   SAY @000658
   ++ @000664 + label_271
   ++ @000670 + label_274
-  ++ @000676 + label_277
+  ++ @000762 + label_277
 END
 
 IF ~~ THEN BEGIN label_277
